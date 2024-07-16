@@ -7,10 +7,14 @@ import App from 'src/App';
 import { SidebarProvider } from 'src/contexts/SidebarContext';
 import * as serviceWorker from 'src/serviceWorker';
 
+import {store} from './utils/redux/store';
+import { Provider } from 'react-redux';
+
 ReactDOM.render(
   <HelmetProvider>
     <SidebarProvider>
       <BrowserRouter>
+        <Provider store={store}>
         <App />
       </BrowserRouter>
     </SidebarProvider>

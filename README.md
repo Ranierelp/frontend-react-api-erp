@@ -3,7 +3,7 @@
         <img src="https://bloomui.s3.us-east-2.amazonaws.com/tokyo-logo.png" alt="Tokyo Free Black Typescript React Admin Dashboard">
     </a>
 </p>
-<h1 align="center">
+<h1 align=>
     <b>Esse é um modelo gratuito utilizado para agilizar o desenvolvimento das interfaces de consumo da API-ERP.</b>
     <br>
     <a href="https://twitter.com/intent/tweet?url=https://bloomui.com&text=I like this React admin dashboard">
